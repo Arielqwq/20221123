@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 1. link bootsrap.css -->
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <title>Document</title>
+  <style>
+    .bg-opacity-50 {
+      --bs-bg-opacity: 0.5;
+    }
+
+    .box {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>添加邊框</h1>
+    <div class="box border"></div>
+    <div class="box"></div>
+    <div class="box border-end"></div>
+    <div class="box border-bottom"></div>
+    <div class="box border-start"></div>
+
+    <hr>
+    <h1>減少邊框</h1>
+    <div class="box border border-0"></div>
+    <div class="box border border-top-0"></div>
+    <div class="box border border-end-0"></div>
+    <div class="box border border-bottom-0"></div>
+    <div class="box border border-start-0"></div>
+
+    <hr>
+
+    <h1>邊框顏色</h1>
+    <div class="box border border-primary"></div>
+    <div class="box border border-secondary"></div>
+    <div class="box border border-success"></div>
+    <div class="box border border-danger"></div>
+    <div class="box border border-warning"></div>
+    <div class="box border border-info"></div>
+    <div class="box border border-light"></div>
+    <div class="box border border-dark"></div>
+
+    <hr>
+
+    <h1>邊框寬度</h1>
+    <div class="box border border-primary border-1"></div>
+    <div class="box border border-primary border-2"></div>
+    <div class="box border border-primary border-3"></div>
+    <div class="box border border-primary border-4"></div>
+    <div class="box border border-primary border-5"></div>
+
+    <hr>
+
+    <h1>Border-radius</h1>
+    <div class="box border border-primary rounded"></div>
+    <div class="box border border-primary rounded-top"></div>
+    <div class="box border border-primary rounded-end"></div>
+    <div class="box border border-primary rounded-bottom"></div>
+    <div class="box border border-primary rounded-start"></div>
+    <div class="box border border-primary rounded-circle"></div>
+    <div class="box border border-primary rounded-pill" style="width:200px;"></div>
+  </div>
+  <!-- 2. bootstrap.bundle.js -->
+  <script src="./js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

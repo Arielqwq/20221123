@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 1. link bootsrap.css -->
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <title>Document</title>
+  <style>
+    .bg-opacity-50 {
+      --bs-bg-opacity: 0.5;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>背景顏色</h1>
+    <div class="p-3 mb-2 bg-primary text-white">.bg-primary</div>
+    <div class="p-3 mb-2 bg-secondary text-white">.bg-secondary</div>
+    <div class="p-3 mb-2 bg-success text-white">.bg-success</div>
+    <div class="p-3 mb-2 bg-danger text-white">.bg-danger</div>
+    <div class="p-3 mb-2 bg-warning text-dark">.bg-warning</div>
+    <div class="p-3 mb-2 bg-info text-dark">.bg-info</div>
+    <div class="p-3 mb-2 bg-light text-dark">.bg-light</div>
+    <div class="p-3 mb-2 bg-dark text-white">.bg-dark</div>
+    <div class="p-3 mb-2 bg-body text-dark">.bg-body</div>
+    <div class="p-3 mb-2 bg-white text-dark">.bg-white</div>
+    <div class="p-3 mb-2 bg-transparent text-dark">.bg-transparent</div>
+
+    <h1>修改透明度</h1>
+    <div class="p-3 mb-2 bg-primary bg-opacity-50 text-white">透明度 0.5</div>
+    <div class="p-3 mb-2 bg-primary text-white" style="--bs-bg-opacity:0.1">透明度 0.1</div>
+
+    <h1>背景漸層</h1>
+    <p>添加 .bg-gradient 可以增加漸層背景。</p>
+    <div class="p-3 mb-2 bg-gradient bg-primary text-white">.bg-primary</div>
+    <div class="p-3 mb-2 bg-gradient bg-secondary text-white">.bg-secondary</div>
+    <div class="p-3 mb-2 bg-gradient bg-success text-white">.bg-success</div>
+    <div class="p-3 mb-2 bg-gradient bg-danger text-white">.bg-danger</div>
+    <div class="p-3 mb-2 bg-gradient bg-warning text-dark">.bg-warning</div>
+    <div class="p-3 mb-2 bg-gradient bg-info text-dark">.bg-info</div>
+  </div>
+  <!-- 2. bootstrap.bundle.js -->
+  <script src="./js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
